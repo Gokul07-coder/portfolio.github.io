@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.top-header {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.top-left-content,
+.top-right-content {
+  flex: 1;
+}
+
+.top-left-content{
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.top-right-content ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#nav-link a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+#nav-link a:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.hero {
+  padding: 30px;
+  font-family: "Sedan", serif;
+  font-weight: 500;
+  font-size: 50px;
+  font-style: normal;
+  text-align: center;
+}
+
+#hero-title {
+    margin-top: 20px;
+    padding-top: 12px;
+}
+
+#hero-content {
+  margin-top: 5px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#project-btn{
+    margin-top: -10px;
+}
